@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.page-bg {
+    height: 100vh;
+    background-image: url('assets/page-bg.png');
+    background-size: cover;
+    background-position: bottom;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 767px) {
+    .page-bg {
+        background: #2b2f8e;
+    }
+}
